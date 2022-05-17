@@ -1,3 +1,3 @@
 ###Array
-- BinarySearch704
-- 搜索插入位置 SearchInsert35
+- BinarySearch [704](https://leetcode.cn/problems/binary-search/)
+- 搜索插入位置 SearchInsert [35](https://leetcode.cn/problems/search-insert-position/)
