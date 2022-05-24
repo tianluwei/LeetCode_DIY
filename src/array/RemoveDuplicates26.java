@@ -1,5 +1,8 @@
 package array;
 
+/**
+ * 删除重复元素，但至少保留一个。
+ */
 public class RemoveDuplicates26 {
     public static void main(String[] args) {
         int[] nums={0,0,1,1,1,2,2,3,3,4};
