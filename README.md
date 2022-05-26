@@ -5,20 +5,28 @@
     - 查找元素第一个和最后一个范围SearchRange [34](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)
     - 一个数的平方根Sqrt [69](https://leetcode.cn/problems/sqrtx/)
     - 是否有效完全平方数IsPerfectSquare [367](https://leetcode.cn/problems/valid-perfect-square/)
-+ 移除元素：
-  - *5.21* RemoveElement [27](https://leetcode.cn/problems/remove-element/)
-  - *5.22* RemoveDuplicates [26](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
-  - MoveZeroes [283](https://leetcode.cn/problems/move-zeroes/)
-  - BackspaceCompare [844](https://leetcode.cn/problems/backspace-string-compare/)
++ 移除元素(双指针)：
+    - *5.21* RemoveElement [27](https://leetcode.cn/problems/remove-element/)
+    - *5.22* RemoveDuplicates [26](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/)
+    - MoveZeroes [283](https://leetcode.cn/problems/move-zeroes/)
+    - BackspaceCompare [844](https://leetcode.cn/problems/backspace-string-compare/)
 + 有序数组的平方：
-  - SortedSquares977 [977](https://leetcode.cn/problems/squares-of-a-sorted-array/)
-+ 长度最小子数组：
-  - *5.23* MinSubArrayLen [209](https://leetcode.cn/problems/minimum-size-subarray-sum/)
-  - *5.24* TotalFruit [904](https://leetcode.cn/problems/fruit-into-baskets/)
-  - MinWindow [76](https://leetcode.cn/problems/minimum-window-substring/)
+    - SortedSquares977 [977](https://leetcode.cn/problems/squares-of-a-sorted-array/)
++ 长度最小子数组(滑动窗口)：
+    - *5.23* MinSubArrayLen [209](https://leetcode.cn/problems/minimum-size-subarray-sum/)
+    - *5.24* TotalFruit [904](https://leetcode.cn/problems/fruit-into-baskets/)
+    - MinWindow [76](https://leetcode.cn/problems/minimum-window-substring/)
++ 螺旋数组：
+    - SpiralOrder [54](https://leetcode.cn/problems/spiral-matrix/)
+    - GenerateMatrix [59](https://leetcode.cn/problems/spiral-matrix-ii/)
     
   
-
+###ListNode
++ 删除链表元素
+    - *5.25* RemoveElements [203](https://leetcode.cn/problems/remove-linked-list-elements/)
+    - *5.26* DesignLinkedList [707](https://leetcode.cn/problems/design-linked-list/)
+    - ReverseList [206](https://leetcode.cn/problems/reverse-linked-list/)
+    
 
 
 ###一些细节：
@@ -29,3 +37,4 @@
     ，因为还没有检测的一个i换到上一个元素了，所以i要到上一个重新检测，否则会出错。
   - 双指针法：（也是removeElement的双指针）fastIndex作为for循环的index，
     slowIndex从0开始，给slowIndex赋一次值，slowIndex就++一次。
+    
