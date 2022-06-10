@@ -1,4 +1,4 @@
-###Array
+###Array01
 + 二分法相关：
     - *5.17* BinarySearch [704](https://leetcode.cn/problems/binary-search/)
     - 搜索插入位置 SearchInsert [35](https://leetcode.cn/problems/search-insert-position/)
@@ -21,11 +21,22 @@
     - GenerateMatrix [59](https://leetcode.cn/problems/spiral-matrix-ii/)
     
   
-###ListNode
+###ListNode02
 + 删除链表元素
     - *5.25* RemoveElements [203](https://leetcode.cn/problems/remove-linked-list-elements/)
     - *5.26* DesignLinkedList [707](https://leetcode.cn/problems/design-linked-list/)
     - ReverseList [206](https://leetcode.cn/problems/reverse-linked-list/)
+    - *6.7凌晨1:45* SwapPairs [24](https://leetcode.cn/problems/swap-nodes-in-pairs/)
+    - *6.9* RemoveNthFromEnd [19](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
+    - *6.10* GetIntersectionNode [02.07](https://leetcode.cn/problems/intersection-of-two-linked-lists-lcci/)
+    - DetectCycle [142](https://leetcode.cn/problems/linked-list-cycle-ii/)
+      
+
+###Hash03
++ 哈希表
+    - IsAnagram [242](https://leetcode.cn/problems/valid-anagram/)
+  
+  
     
 
 
@@ -37,4 +48,5 @@
     ，因为还没有检测的一个i换到上一个元素了，所以i要到上一个重新检测，否则会出错。
   - 双指针法：（也是removeElement的双指针）fastIndex作为for循环的index，
     slowIndex从0开始，给slowIndex赋一次值，slowIndex就++一次。
+  - 链表中翻转k个节点，需要从dummy开始翻转，因为这样的数量才是对的。每翻转一小段，要和下一次的开头连起来。
     

@@ -1,4 +1,4 @@
-package array;
+package array01;
 
 public class Sqrt69 {
     public int mySqrt(int x) {

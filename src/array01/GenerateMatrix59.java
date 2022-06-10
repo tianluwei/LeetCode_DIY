@@ -1,4 +1,4 @@
-package array;
+package array01;
 
 public class GenerateMatrix59 {
     public static void main(String[] args) {

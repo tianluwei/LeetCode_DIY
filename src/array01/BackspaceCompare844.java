@@ -1,4 +1,4 @@
-package array;
+package array01;
 
 public class BackspaceCompare844 {
     public static void main(String[] args) {

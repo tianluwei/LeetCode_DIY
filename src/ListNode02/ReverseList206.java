@@ -1,4 +1,4 @@
-package ListNode;
+package ListNode02;
 
 public class ReverseList206 {
 

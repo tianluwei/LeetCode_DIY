@@ -1,6 +1,4 @@
-package ListNode;
-
-import array.RemoveElement27;
+package ListNode02;
 
 public class RemoveElements203 {
     public static void main(String[] args){

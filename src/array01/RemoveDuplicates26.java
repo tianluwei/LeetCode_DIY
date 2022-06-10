@@ -1,4 +1,4 @@
-package array;
+package array01;
 
 /**
  * 删除重复元素，但至少保留一个。

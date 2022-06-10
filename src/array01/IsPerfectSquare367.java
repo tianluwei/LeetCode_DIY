@@ -1,4 +1,4 @@
-package array;
+package array01;
 
 //完全有效的平方数
 public class IsPerfectSquare367 {

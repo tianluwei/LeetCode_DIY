@@ -1,4 +1,4 @@
-package array;
+package array01;
 
 /**
  * 为什么时间复杂度是O(n)。

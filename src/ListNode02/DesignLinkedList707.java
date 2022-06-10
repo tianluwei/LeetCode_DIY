@@ -1,4 +1,4 @@
-package ListNode;
+package ListNode02;
 
 public class DesignLinkedList707 {
 //    不要有敌意。该怎么样就怎么样，自己永远是有主动性的，受害者心态意味着把自己的权利，自己的自由责任交给别人，这样可不对。
